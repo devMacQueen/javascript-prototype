@@ -98,8 +98,15 @@ console.log(student1.getGrade())
 console.log(student1.updataScore(90))
 console.log(student1.getResult())
 
+
 console.log(student1.hasOwnProperty("introduce"))
+console.log(student1.hasOwnProperty("getResult"))
+console.log(student1.hasOwnProperty("getGrade"))
+
 console.log(Student.prototype.hasOwnProperty("introduce"))
+console.log(Student.prototype.hasOwnProperty("getResult"))
+console.log(Student.prototype.hasOwnProperty("getGrade"))
+
 
 console.log(Object.getPrototypeOf(student1) === Object.getPrototypeOf(student2))
 
